@@ -1,0 +1,26 @@
+// flex
+@mixin flex{
+    display: flex;
+    justify-content: space-between;
+}
+@mixin imagen2{
+    background-image: url(../img/coffe-1.jpg);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+@mixin imagen3{
+    background-image: url(../img/coffee-2.jpg);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+@mixin boton{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b;
+    color: #f9fafc;
+    text-transform: uppercase;
+}

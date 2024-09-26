@@ -1,0 +1,51 @@
+// nesting service
+
+.services{
+    background-color: #c5c5c5;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding: 100px 0;
+    .services-content{
+        text-align: center ;
+        h2{
+            font-size: 55px;
+            line-height: 70px;
+            color: #323337;
+            text-transform: uppercase;
+            margin-bottom: 50px;
+            
+        }
+        .services-group{
+            @include flex;
+            margin-bottom: 50px;
+            .services-1{
+                padding: 0 100px;
+                p{
+                    font-size: $font16;
+                    color: #414247;
+                    margin-bottom: 50px;
+                    padding: 0 20px;
+                }
+                img{
+                    width: 250px;
+                    margin-bottom: 15px;
+                }
+                h3{
+                    color: #414247 ;
+                    font-size: 18px;
+                }
+                a{
+                    display: block;
+                    @include boton;
+                }
+            }
+            
+        }
+        a{
+            @include boton
+        }
+    }
+
+}

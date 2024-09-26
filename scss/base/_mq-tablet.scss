@@ -1,0 +1,76 @@
+// mq tablet home
+@media screen and (max-width: 990px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .coffee{
+        .coffee-img{
+            display: none;
+        }
+    }
+}
+// mq tablet service
+@media screen and (max-width: 990px){
+    .services-group{
+        justify-content: center;
+        flex-wrap: wrap;
+        .services-1{
+            a{
+                margin-bottom: 45px;
+            }
+        }
+    }
+}
+// mq tablet footer
+@media screen and (max-width: 990px){
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        .link{
+            text-align: center;
+            h3{
+                margin-top: 20px;
+            }
+        }
+        
+    }
+    .fin{
+        text-align: center;
+        font-size: $font18;
+        color: #f9fafc;
+    }
+}
+// mq tablet galeria
+@media screen and (max-width: 990px){
+    main{
+        .gallery{
+            grid-template-columns: repeat(2, 1fr);
+            grid-column: 2/2;
+            grid-row: 2/2;
+            .gallery-img-3{
+                display: none;
+                grid-column: 2/4;
+                grid-row: 2/4;
+            }
+            }
+        }
+}
+// mq tablet locales
+@media screen and (max-width: 990px){
+    .blog{
+        .blog-content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .blog-1{
+                img{
+                    width: 750px;
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+}
+
+

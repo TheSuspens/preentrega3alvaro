@@ -1,0 +1,90 @@
+// mq mobile home
+@media screen and (max-width: 600px){
+    .header{
+        .menu{
+            padding: 30px;
+            display: flex;
+            flex-direction: row;
+                label{
+                    display: initial;
+                }
+            .navbar{
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: #323337;
+                display: none;
+                ul{
+                    li{
+                        width: 100%;
+                    }
+                }
+            }
+            #menu:checked ~ {
+                .navbar{
+                    display: initial;
+                }
+            }
+        }
+            .header-content{
+                min-height: 0vh;
+                p{
+                    padding: 0;
+                }
+            }
+        }
+        .coffee{
+            padding: 30px;
+            .coffee-content{
+                h2{
+                    padding: 0;
+                }
+                .text-p{
+                    padding: 0;
+                }
+                .coffee-group{
+                    flex-direction: column;
+                    margin-bottom: 0;
+                    .coffee-img{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .general{
+            .general-1{
+                width: 100%;
+                padding: 30px;
+                text-align: center;
+            }
+            .general-2{
+                display: none;
+            }
+            .general-3{
+                display: none;
+            }
+        }
+    }
+// mq mobile locales
+@media screen and (max-width: 600px){
+    .blog-content{
+        display: flex;
+        justify-content: space-between;
+        background-color: #e1e2e6;
+        .blog-1{
+            margin-top: 20px;
+            padding: 0;
+            img{
+                width: 250px;
+                margin: 0 100px;
+            }
+            p{
+                padding: 50px;
+                display: inline-block;
+            
+            }
+        }
+        
+    }
+}

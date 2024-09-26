@@ -1,0 +1,32 @@
+// nesting productos
+.carousel{
+    width: 500px;
+    height: 700px;  
+    margin: auto;
+    text-align: center;
+    h2{
+        font-size: 55px;
+        line-height: 70px;
+        color: #323337;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    #carouselExampleDark{
+        .carousel-item{
+            img{
+                height: 500px;
+                width: 450px;
+                margin-bottom: 100px;
+            }
+            .carousel-caption{
+                a{
+                    @include boton
+                }
+                h3{
+                    font-size: 25px;
+                    color: #323337;
+                }
+            }
+        }
+    }
+}   

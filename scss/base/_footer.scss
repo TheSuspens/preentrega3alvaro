@@ -1,0 +1,28 @@
+// estilos de footer
+.footer{
+    padding: 100px 0;
+    background-color: #000000;
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        .link{
+            h3{
+                font-size: 18px;
+                color: #f9fafc;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+            a{
+                font-size: 16px;
+                color: #c5c5c5;
+                display: block;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .fin{
+        text-align: center;
+        font-size: 18px;
+        color:#f9fafc;;
+    }
+}

@@ -478,22 +478,14 @@ main .gallery .gallery-img-3 {
   }
 }
 @media screen and (max-width: 600px) {
-  .blog-content {
+  .blog .blog-content {
     display: flex;
-    justify-content: space-between;
-    background-color: #e1e2e6;
+    flex-direction: column;
+    align-items: center;
   }
-  .blog-content .blog-1 {
-    margin-top: 20px;
-    padding: 0;
-  }
-  .blog-content .blog-1 img {
-    width: 250px;
-    margin: 0 100px;
-  }
-  .blog-content .blog-1 p {
-    padding: 50px;
-    display: inline-block;
+  .blog .blog-content .blog-1 img {
+    width: 400px;
+    border-radius: 0;
   }
 }
 

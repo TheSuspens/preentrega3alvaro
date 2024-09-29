@@ -68,23 +68,17 @@
     }
 // mq mobile locales
 @media screen and (max-width: 600px){
-    .blog-content{
-        display: flex;
-        justify-content: space-between;
-        background-color: #e1e2e6;
-        .blog-1{
-            margin-top: 20px;
-            padding: 0;
-            img{
-                width: 250px;
-                margin: 0 100px;
-            }
-            p{
-                padding: 50px;
-                display: inline-block;
-            
+    .blog{
+        .blog-content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .blog-1{
+                img{
+                    width: 400px;
+                    border-radius: 0;
+                }
             }
         }
-        
     }
 }

@@ -79,8 +79,8 @@
     text-align: center;
 }
 .header-content h1{
-    font-size: 75px;
-    line-height: 80px;
+    font-size: 15px;
+    line-height: 3rem;
     color: #f9fafc;
     text-transform: uppercase;
     margin-bottom: 35px;
@@ -477,5 +477,5 @@ p{
     }
     .gallery{
         display: flex;
-        flex-direction: column;}     
+        flex-direction: column;} 
 }

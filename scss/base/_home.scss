@@ -60,12 +60,19 @@
     .header-content{
         text-align: center;
         h1{
-            font-size: 75px;
+            font-size: 4rem;
             line-height: 80px;
             color: #f9fafc;
             text-transform: uppercase;
             margin-bottom: 35px;
+            padding: 5px;
+            animation: mover-isquierda-derecha 2s;
+            @keyframes mover-isquierda-derecha  {
+                from{
+                    transform: translateX(-500px) ;
             }
+            }
+        }
         p{
             font-size: $font16;
             color: #c5c5c5;
@@ -117,6 +124,13 @@
                 padding: 0 25px ;
                 img{
                     width: 200px;
+                    animation: mover-img 3s;
+                    @keyframes mover-img {
+                        from{
+                            transform: translatey(-500px);
+                        }
+                        
+                    }
                 }
                 h3{
                     color: #323337;
@@ -159,6 +173,13 @@
     }
     .general-2{
         @include imagen2;
+        animation: mover 3s;
+        @keyframes mover{
+        from{
+            transform: translatey(-500); 
+        }
+        
+    }
     }
     .general-3{
         @include imagen3;
